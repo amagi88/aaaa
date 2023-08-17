@@ -1,0 +1,100 @@
+.header-container 
+{
+    background-color: #ffffff; /* 任意の色に変更。この場合は鮮やかなオレンジ色 */
+    color: #fff; /* 文字色を白に変更 */
+}
+
+body {
+    font-family: 'Georgia', serif;
+    background: linear-gradient(120deg, #e0f7fa, #f0f8ff); /* 薄い色のグラデーション */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+}
+
+div {
+    max-width: 400px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.9); /* コンテナの背景をより明るく */
+    border-radius: 15px;
+    text-align: center;
+    margin: 20px 0;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.1); /* 影を薄く */
+}
+
+h1, h2, h3 {
+    color: #333; /* タイトルの色を暗く */
+    margin: 10px 0;
+}
+
+h1 { font-size: 36px; }
+h2 { font-size: 28px; }
+h3 { font-size: 20px; }
+
+p, p2 {
+    margin: 10px 0;
+    color: #444; /* 段落の色を暗く */
+}
+
+input[type="text"],
+input[type="number"],
+input[type="file"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #bbb; /* ボーダーを薄く */
+    border-radius: 5px;
+}
+
+.button2 {
+    background-color: #8018ad; /* ボタンの色を薄く */
+    color: #333; /* 文字色を暗く */
+    border: none;
+    padding: 15px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 10px;
+    width: 100%;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.1); /* 影を薄く */
+    transition: 0.3s;
+    margin: 10px 0;
+}
+
+.button2:hover {
+    background-color: #a6d8de; /* ホバー時の色を薄く */
+    transform: scale(1.05);
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 10px auto;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="file"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 2px solid #32a852; /* 枠線を緑に */
+    background-color: #e3f9f3; /* 背景色を淡い緑に */
+    border-radius: 15px; /* 枠の丸みを大きく */
+    font-size: 16px;
+    color: #333; /* 文字色を暗く */
+    transition: all 0.3s; /* アニメーション効果の適用 */
+    letter-spacing: 1px; /* 文字間隔を広げる */
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1); /* 影を柔らかく */
+}
+
+input[type="text"]:focus,
+input[type="number"]:focus,
+input[type="file"]:focus {
+    border-color: #ff8000; /* フォーカス時の枠線の色を青に */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1); /* フォーカス時の影を強調 */
+    outline: none; /* フォーカス時のデフォルトのアウトラインを削除 */
+}

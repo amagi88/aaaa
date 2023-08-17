@@ -1,0 +1,109 @@
+
+{
+    background-color: #89ff89; /* 任意の色に変更。この場合は鮮やかなオレンジ色 */
+    color: #fff; /* 文字色を白に変更 */
+}
+
+body {
+    font-family: 'Georgia', serif;
+    background: linear-gradient(120deg, #f9f6e7, #ffffff);
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    color: #555;
+    font-size: 36px;
+    margin: 20px 0;
+}
+
+p {
+    margin: 10px 0;
+    color: #666;
+}
+
+div {
+    max-width: 800px;
+    padding: 20px;
+    background-color: rgba(255, 255, 200, 0.9);
+    border-radius: 15px;
+    text-align: center;
+    margin: 20px 0;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.1);
+}
+
+h2, h3 {
+    color: #555;
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+input[type="text"],
+input[type="number"],
+input[type='file'] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #ffe600;
+    color: #333;
+    border: none;
+    padding: 15px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 10px;
+    width: 30%;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.1);
+    transition: 0.3s;
+    margin: 10px 0;
+}
+
+button:hover {
+    background-color: #fdd700;
+    transform: scale(1.05);
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+Link {
+    display: block;
+    margin: 20px 0;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="file"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 2px solid #d4af37; /* 枠線を黄色に */
+    background-color: #fcf9e3; /* 背景色を淡い黄色に */
+    border-radius: 15px; /* 枠の丸みを大きく */
+    font-size: 16px;
+    color: #333; /* 文字色を暗く */
+    transition: all 0.3s; /* アニメーション効果の適用 */
+    letter-spacing: 1px; /* 文字間隔を広げる */
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1); /* 影を柔らかく */
+}
+
+input[type="text"]:focus,
+input[type="number"]:focus,
+input[type="file"]:focus {
+    border-color: #d4af37; /* フォーカス時の枠線の色 */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1); /* フォーカス時の影を強調 */
+    outline: none; /* フォーカス時のデフォルトのアウトラインを削除 */
+}
