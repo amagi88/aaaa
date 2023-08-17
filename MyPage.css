@@ -1,0 +1,55 @@
+body {
+    font-family: 'Georgia', serif;
+    background: linear-gradient(120deg, #f0fff2, #e6e6fa); /* 背景グラデーション */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    max-width: 400px; /* コンテナの幅を制限 */
+    padding: 40px;
+    background-color: rgba(255, 255, 255, 0.8); /* コンテナの背景色を軽く透明化 */
+    border-radius: 15px; /* 角を丸く */
+    text-align: center;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2); /* 影を追加 */
+}
+
+h1 {
+    color: #4a4e69;
+    font-size: 36px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.p1, .p2, .p3, .p4 {
+    margin: 10px 0;
+    color: #222; /* 段落の色を統一 */
+}
+
+.buttons Link {
+    display: block;
+    margin: 15px auto;
+    width: 100%;
+}
+
+.button1 {
+    background-color: #81a4fd; /* ボタンの色を変更 */
+    color: white;
+    border: none;
+    padding: 15px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 10px; /* ボタンの角を丸く */
+    width: 100%;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2); /* 影を追加 */
+    transition: 0.3s; /* トランジション効果 */
+}
+
+.button1:hover {
+    background-color: #6a8af1; /* ホバー時の色 */
+    transform: scale(1.05); /* ホバー時の拡大 */
+}
